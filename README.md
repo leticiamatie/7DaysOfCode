@@ -4,7 +4,7 @@
     <span>7DaysOfCode - Lógica de Programação com JavaScript</span>
 </h1>
 
-## Dia 1
+## Dia 1 - Lógica JS 1/7: Operações Booleanas
 Reescreva o código abaixo de maneira que ele imprima as informações de maneira correta, que faça sentido e sem erros:
 
 ![image](https://github.com/leticiamatie/7DaysOfCode/assets/89943392/65229e9b-99cd-47f1-9e6d-9f1d4541b1d4)
