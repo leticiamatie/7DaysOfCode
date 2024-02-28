@@ -6,6 +6,7 @@
 
 ## Dia 1
 Reescreva o código abaixo de maneira que ele imprima as informações de maneira correta, que faça sentido e sem erros:
+
 ![image](https://github.com/leticiamatie/7DaysOfCode/assets/89943392/65229e9b-99cd-47f1-9e6d-9f1d4541b1d4)
 
 ## Dia 2
