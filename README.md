@@ -43,3 +43,12 @@ conhecer. Aqui, a pessoa pode responder N tecnologias, uma de cada vez. Então, 
 respondendo ok para a pergunta: “Tem mais alguma tecnologia que você gostaria de aprender?”, 
 continue apresentando para ela o Prompt, para que ela complete o nome da tecnologia em questão. 
 E, logo depois, apresente uma mensagem comentando algo sobre a linguagem inserida.
+
+## Dia 4 - Lógica JS 4/7: Mais loops e Randomização
+Criar um programinha de adivinhação de número. Comece com um  número randômico entre 0 a 10 utilizando:
+Math.floor(Math.random() * (máximo - mínimo + 1) + mínimo)
+
+Em seguida, o programa vai perguntar para você qual o valor que você deseja chutar 
+- Caso você acerte, ele irá te parabenizar. 
+- Caso erre, ele vai te dar mais 2 tentativas.
+- No fim, caso você não acerte nenhuma vez, ele vai imprimir qual era o número inicial.
