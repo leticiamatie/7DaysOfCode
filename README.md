@@ -52,3 +52,16 @@ Em seguida, o programa vai perguntar para você qual o valor que você deseja ch
 - Caso você acerte, ele irá te parabenizar. 
 - Caso erre, ele vai te dar mais 2 tentativas.
 - No fim, caso você não acerte nenhuma vez, ele vai imprimir qual era o número inicial.
+
+  ## Dia 5 - Lógica JS 5/7: Arrays e coleções
+  Criar um programa em Javascript que: 
+- Pergunta se você deseja adicionar uma comida na sua lista de compras, e você deve poder responder com sim ou não.
+- Pergunte qual comida você deseja inserir, e você digitará o nome dela.
+- Deverá perguntar em qual categoria essa comida se encaixa, com algumas opções já pré-definidas (como frutas, laticínios, congelados).
+- Caso você não queira mais adicionar nada na lista de compras e responder não na primeira pergunta.
+- Irá exibir uma lista com todos os itens agrupados, da seguinte forma:
+Lista de compras:
+    Frutas: banana, tomate, maçã, uva, abacate
+    Laticínios: leite vegetal, leite de vaca, leite em pó
+    Congelados:
+    Doces: chiclete e bala de ursinho
