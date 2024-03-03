@@ -53,7 +53,7 @@ Em seguida, o programa vai perguntar para você qual o valor que você deseja ch
 - Caso erre, ele vai te dar mais 2 tentativas.
 - No fim, caso você não acerte nenhuma vez, ele vai imprimir qual era o número inicial.
 
-  ## Dia 5 - Lógica JS 5/7: Arrays e coleções
+## Dia 5 - Lógica JS 5/7: Arrays e coleções
   Criar um programa em Javascript que: 
 - Pergunta se você deseja adicionar uma comida na sua lista de compras, e você deve poder responder com sim ou não.
 - Pergunte qual comida você deseja inserir, e você digitará o nome dela.
