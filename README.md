@@ -26,7 +26,7 @@ Dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
 - 1 > Muito bom! Continue estudando e você terá muito sucesso.
 - 2 > Ahh que pena... Mas pode pode aprender outras linguagens!
 
-## Dia 3 - Lógica JS 3/7: Loops
+## Dia 3 - Lógica JS 3/7: Fluxo de Decisão
 Desenvolva destinos possíveis de um jogo, em que o usuário consiguesse escolher:
 - Se quer seguir para área de Front-End ou seguir para a área de Back-End.
 

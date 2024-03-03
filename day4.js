@@ -8,5 +8,36 @@ Depois que o programinha estiver funcionando, tente usar um número randômico e
 pré-definido.
 
 */
-
-Math.floor(Math.random() * (máximo - mínimo + 1) + mínimo)
+function numeroAleatorio() {
+    return Math.floor(Math.random() * (10 - 0 + 1) + 0);
+  }
+  
+  const adivinharNumero = numeroAleatorio();
+  const numTentativas = 3;
+  let tentativa = '';
+  
+  function validarNumero(numero) {
+    return !isNaN(numero) && numero >= 0 && numero <= 10;
+  }
+  
+  for (tentativa = 1; tentativa <= numTentativas; tentativa++) {
+    const chute = parseInt(prompt("Tente adivinhar o número (entre 0 e 10):"));
+  
+    if (validarNumero(chute)) {
+      if (chute === adivinharNumero) {
+        alert("Parabéns! Você acertou o número!");
+        break;
+      } else {
+        alert("Ops! Você errou. Tente novamente!");
+        if (tentativa < numTentativas) {
+          alert(`Você ainda tem ${numTentativas - tentativa} tentativas.`);
+        }
+      }
+    } else {
+      alert("Por favor, insira um número válido.");
+    }
+  }
+  
+  if (tentativa > numTentativas) {
+    alert(`Você perdeu. O número era ${adivinharNumero}.`);
+  }
