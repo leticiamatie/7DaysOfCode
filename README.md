@@ -15,8 +15,7 @@ Desenvola um programa que deve pedir para o usuário responder 3 perguntas:
 - Quantos anos você tem?
 - Qual linguagem de programação você está estudando?
 
-À medida que as perguntas forem sendo feitas, a pessoa que estiver usando o programa deve responder cada uma delas. No final, o sistema vai exibir a mensagem:
-"Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!"
+À medida que as perguntas forem sendo feitas, a pessoa que estiver usando o programa deve responder cada uma delas. No final, o sistema vai exibir a mensagem: "Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!"
 
 EXTRA:
 Complemente o código para que, depois de exibir a mensagem anterior, o programa pergunte:
@@ -38,15 +37,10 @@ Caso esteja na área de Back-End:
 
 Depois, independente das escolhas anteriores, o usuário poderá escolher entre seguir se especializando na área escolhida ou seguir se desenvolvendo para se tornar Fullstack. Você deve exibir na tela uma mensagem específica para cada escolha.
 
-Pergunte quais são as tecnologias nas quais a pessoa gostaria de se especializar ou de 
-conhecer. Aqui, a pessoa pode responder N tecnologias, uma de cada vez. Então, enquanto ela continuar
-respondendo ok para a pergunta: “Tem mais alguma tecnologia que você gostaria de aprender?”, 
-continue apresentando para ela o Prompt, para que ela complete o nome da tecnologia em questão. 
-E, logo depois, apresente uma mensagem comentando algo sobre a linguagem inserida.
+Pergunte quais são as tecnologias nas quais a pessoa gostaria de se especializar ou de conhecer. Aqui, a pessoa pode responder N tecnologias, uma de cada vez. Então, enquanto ela continuar respondendo ok para a pergunta: “Tem mais alguma tecnologia que você gostaria de aprender?”, continue apresentando para ela o Prompt, para que ela complete o nome da tecnologia em questão. E, logo depois, apresente uma mensagem comentando algo sobre a linguagem inserida.
 
 ## Dia 4 - Lógica JS 4/7: Mais loops e Randomização
-Criar um programinha de adivinhação de número. Comece com um  número randômico entre 0 a 10 utilizando:
-Math.floor(Math.random() * (máximo - mínimo + 1) + mínimo)
+Criar um programinha de adivinhação de número. Comece com um  número randômico entre 0 a 10 utilizando: Math.floor(Math.random() * (máximo - mínimo + 1) + mínimo)
 
 Em seguida, o programa vai perguntar para você qual o valor que você deseja chutar 
 - Caso você acerte, ele irá te parabenizar. 
@@ -77,3 +71,12 @@ Outra operação muito comum é a de remoção de itens da lista e, por isso, é
 - Se, na hora de deletar o item, o mesmo não for encontrado na lista, você deverá exibir uma mensagem avisando isso.
 Por exemplo: “Não foi possível encontrar o item dentro da lista!”
 Lembre-se que a opção de remover um item só deverá estar disponível a partir do momento que existir ao menos um elemento dentro da lista de compras.
+
+## Dia 7 - Lógica JS 7/7: Funções em Javascript
+Neste último desafio, a minha proposta para você é: crie a sua própria calculadora, porém com um detalhe muito importante: cada operação deverá ser uma função diferente no seu código.
+- Primeiramente, a pessoa deverá escolher uma opção de operação impressa pelo programa na tela.
+- Depois, ela deverá inserir os dois valores que deseja utilizar, e o programa imprimirá o resultado da operação em questão.
+- As opções disponíveis deverão ser: soma, subtração, multiplicação, divisão, e sair. Nessa última, o programa deverá parar de ser executado, mostrando uma mensagem "Até a próxima".
+- Cada operação deverá ter uma função diferente no seu código, que receberá os valores inseridos como parâmetros e retornará com o resultado da operação.
+- Não esqueça de usar estruturas de repetição para fazer a calculadora imprimir a escolha de operação até que a pessoa deseje parar o programa.
+- Lembre-se também de que, além do if e else, também temos o switch, muito interessante de se utilizar em casos como esse, de múltipla escolha.
